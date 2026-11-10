@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="oHotel Copilot 浏览器扩展隐私政策：了解酒店业务、AI 对话、图片、位置与交易信息的处理方式。">
+  <title>oHotel Copilot 隐私政策</title>
+  <style>
+    :root { color-scheme: light; --ink: #20332e; --muted: #586960; --line: #dce5df; --accent: #23634d; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #f4f7f4; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; line-height: 1.85; }
+    main { max-width: 960px; margin: 48px auto; padding: 48px 56px; background: #fff; border: 1px solid var(--line); border-radius: 16px; }
+    header { padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    .brand { margin: 0 0 12px; color: var(--accent); font-size: 15px; font-weight: 700; letter-spacing: .05em; }
+    h1 { margin: 0 0 12px; font-size: clamp(28px, 5vw, 38px); line-height: 1.35; letter-spacing: -.02em; }
+    h2 { margin: 0 0 14px; font-size: 22px; line-height: 1.5; }
+    h3 { margin: 24px 0 8px; font-size: 17px; }
+    p { margin: 12px 0; }
+    a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #bd8b2b; outline-offset: 4px; }
+    .meta, footer { color: var(--muted); font-size: 14px; }
+    nav { margin: 28px 0; padding: 20px 24px; background: #f5f8f5; border-radius: 10px; }
+    nav ol { margin: 10px 0 0; padding-left: 24px; columns: 2; column-gap: 32px; }
+    nav li { break-inside: avoid; padding: 2px 0; }
+    section { margin-top: 36px; scroll-margin-top: 24px; }
+    ul { padding-left: 24px; }
+    li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 18px 0; border: 1px solid var(--line); border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.75; }
+    th, td { padding: 14px 16px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+    th { background: #f2f6f2; font-weight: 600; }
+    th:first-child { width: 24%; }
+    tr:last-child td { border-bottom: 0; }
+    .note { border-left: 3px solid #85aa97; padding: 10px 18px; background: #f5f8f5; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+    @media (max-width: 640px) {
+      body { font-size: 15px; }
+      main { margin: 0; padding: 28px 20px; border: 0; border-radius: 0; }
+      nav ol { columns: 1; }
+      th, td { padding: 10px 8px; }
+      h2 { font-size: 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      main { max-width: none; margin: 0; padding: 0; border: 0; }
+      nav { display: none; }
+      h2, h3 { break-after: avoid; }
+      tr { break-inside: avoid; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">oHotel Copilot</p>
+      <h1>隐私政策</h1>
+      <p class="meta">适用产品：oHotel Copilot Chrome 浏览器扩展<br>版本日期：2026 年 11 月 10 日<br>本政策自正式公布之日起生效</p>
+    </header>
+
+
+    <p>oHotel Copilot 帮助酒店工作人员在浏览器中连接酒店业务系统，使用 AI 助手查询和处理业务，并衔接外设、报表预览及签名交付。本政策说明使用这些功能时处理哪些信息、信息的用途和接收方，以及您可以如何管理相关数据。</p>
+    <p>本扩展由 杭州绿云软件股份有限公司（以下简称“我们”）提供。酒店业务系统、设备和相关服务可能由您的酒店、所属组织或其委托方管理。部分功能需要对应酒店开通服务并授予您的账号相应权限。</p>
+
+    <nav aria-label="隐私政策目录">
+      <strong>目录</strong>
+      <ol>
+        <li><a href="#data">我们处理的信息</a></li>
+        <li><a href="#purpose">信息的使用范围</a></li>
+        <li><a href="#sharing">数据接收方与传输</a></li>
+        <li><a href="#permissions">浏览器权限与您的选择</a></li>
+        <li><a href="#retention">保存期限与删除</a></li>
+        <li><a href="#security">信息安全</a></li>
+        <li><a href="#rights">您的请求与联系渠道</a></li>
+        <li><a href="#children">适用人群</a></li>
+        <li><a href="#changes">政策更新</a></li>
+      </ol>
+    </nav>
+
+    <section id="data">
+      <h2>1. 我们处理的信息</h2>
+      <p>实际处理的信息取决于您使用的功能、酒店开通的服务、账号权限及业务服务返回的内容。信息的临时使用或转发同样属于本政策所述的处理。</p>
+      <div class="table-wrap">
+        <table aria-label="信息类型、来源和用途">
+          <thead><tr><th scope="col">信息类型</th><th scope="col">来源与内容</th><th scope="col">处理目的</th></tr></thead>
+          <tbody>
+            <tr><td>连接与终端配置</td><td>您填写或系统提供的工作站地址、连接协议、酒店码、终端码及设备连接配置。</td><td>连接对应酒店工作站、AI 和外设服务。</td></tr>
+            <tr><td>账号与认证信息</td><td>业务系统返回的用户标识、登录令牌、会话和权限信息。</td><td>识别当前账号，维持登录状态，验证业务访问和 AI 服务权限。</td></tr>
+            <tr><td>AI 对话与图片</td><td>您输入的消息、选择或粘贴后发送的图片、随请求提交的对话上下文，以及 AI 返回的回答和业务结果。</td><td>理解问题，生成回答，完成相关业务查询或操作，并提供本地历史对话。</td></tr>
+            <tr><td>业务页面与交互信息</td><td>支持的业务页面地址、标题、页面类型、预订或档案标识、房号等上下文，以及业务导航、预览触发和操作信息。</td><td>将侧边栏与当前业务关联，提供相关入口，并处理报表和业务流程。</td></tr>
+            <tr><td>宾客与酒店业务信息</td><td>业务系统按权限返回的预订、宾客档案、入住历史、房态、账务等信息，以及相关操作参数；可能包含姓名、联系方式或证件相关信息。</td><td>提供已授权的酒店查询、前台处理及运营辅助功能。</td></tr>
+            <tr><td>支付和交易信息</td><td>支付或设备服务返回的交易金额、结果、授权信息，以及服务实际提供的卡号相关字段、有效期等数据。</td><td>转发和处理支付、账务及设备联动结果。具体字段与完整程度由接入服务决定。</td></tr>
+            <tr><td>设备位置信息</td><td>设备定位模式下，经浏览器许可获取的经纬度、精度和采集时间。</td><td>解析当前位置，辅助天气、周边或路线等位置相关查询。</td></tr>
+            <tr><td>报表与签名交付内容</td><td>您在支持的业务页面预览的 PDF 报表及相关请求地址；报表可能包含宾客或财务信息。</td><td>展示报表并交付工作站签名流程，支持重新交付最近一次报表。</td></tr>
+            <tr><td>运行及故障信息</td><td>扩展运行时的状态、错误、业务处理和诊断日志，可能包含与故障有关的业务标识或请求信息。</td><td>定位连接及业务处理问题。向支持人员提供日志前，请检查并移除不必要的敏感内容。</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>图片在您选择或粘贴并提交后随请求发送。请仅提交处理当前工作所必需且您有权提供的内容，避免在对话或图片中加入无关的密码、完整支付凭据或其他敏感信息。</p>
+    </section>
+
+    <section id="purpose">
+      <h2>2. 信息的使用范围</h2>
+      <p>上述信息用于提供酒店业务辅助这一用途，包括连接工作站、账号鉴权、AI 对话与查询、业务操作、外设联动、报表预览和签名交付，以及支持这些功能的故障排查。</p>
+      <p>我们对通过本扩展获取的信息的使用遵守 Chrome Web Store 用户数据政策，包括其 Limited Use 限制。我们仅在已披露的酒店业务辅助功能及相关必要运行目的范围内使用信息。</p>
+      <ul>
+        <li>不出售用户数据，不向广告平台或数据经纪商提供数据。</li>
+        <li>不将数据用于个性化广告、与本扩展用途无关的用户画像、信用评估或放贷。</li>
+        <li>仅在提供相关功能所必需、履行适用法律义务、防范欺诈或安全滥用等允许情形下转移数据；涉及合并、收购或资产出售的数据转移，事先取得用户明确同意。</li>
+        <li>人工访问用户内容限于用户明确同意的具体事项、必要安全处置、法律要求，或符合要求的汇总匿名内部运营情形。</li>
+      </ul>
+      <p>上述用途限制同样适用于 AI 服务。用户数据不得用于与本扩展单一用途无关的通用模型训练。我们委托服务提供商处理信息时，要求其按照约定目的和范围处理，并遵守相应的数据保护义务。</p>
+    </section>
+
+    <section id="sharing">
+      <h2>3. 数据接收方与传输</h2>
+      <p>本扩展并非仅在本地处理数据。根据功能需要，相关信息会发送至您配置或部署指定的工作站、AI 服务、业务接口及设备消息服务。AI 服务地址可能由部署配置指定，不一定与您填写的工作站地址相同。</p>
+      <ul>
+        <li><strong>酒店工作站和业务服务：</strong>接收身份验证信息、业务参数、必要的宾客和交易数据，并返回查询或操作结果。</li>
+        <li><strong>AI 服务：</strong>接收您提交的消息、图片、相关对话历史及业务上下文，用于生成回答或处理请求。</li>
+        <li><strong>位置相关服务：</strong>设备定位模式下接收位置数据，用于位置描述及相关查询；酒店地址模式使用酒店地址提供相应服务。</li>
+        <li><strong>外设和消息服务：</strong>接收并转发发票、门锁、证件扫描、支付和签名等已接入流程所需的信息。</li>
+        <li><strong>报表与签名服务：</strong>提供报表 PDF，或接收工作站签名流程所需的报表内容。</li>
+      </ul>
+      <div class="table-wrap">
+        <table aria-label="实际服务提供商披露">
+          <thead><tr><th scope="col">服务环节</th><th scope="col">提供商及处理安排</th></tr></thead>
+          <tbody>
+            <tr><td>工作站与业务系统</td><td>由杭州绿云软件股份有限公司、您的酒店或酒店指定的业务系统服务方，按实际部署及服务关系处理登录、预订、宾客、房态和账务等必要数据。</td></tr>
+            <tr><td>AI 后端与模型服务</td><td>AI 后端根据酒店启用的模型配置处理请求；启用外部模型时，相关服务商接收完成请求所需的消息、图片或上下文。支持的配置包括 DeepSeek 及其他兼容模型接口，支持某种接口不代表该服务已在您的酒店启用。</td></tr>
+            <tr><td>地图与位置服务</td><td>启用高德地图等位置服务时，相应服务方按查询需要接收坐标、地址或位置查询条件，用于位置解析、天气、周边或路线查询；未启用时不发生该项传输。</td></tr>
+            <tr><td>支付、外设及签名服务</td><td>由酒店实际接入的支付机构、设备服务方或签名服务方处理对应流程所需的数据，具体接收方与酒店接入配置有关。</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>实际启用的服务及数据处理地点随酒店部署和模型配置而变化。您可向酒店管理员或通过本政策的联系邮箱查询适用于您所用服务的接收方、处理地点及隐私说明。对依法需要另行告知或取得同意的信息处理，我们将在发生相关处理前履行相应义务。</p>
+      <p>如所使用的部署或外部服务涉及跨境提供个人信息，我们将按照适用要求说明接收方、目的、方式、信息范围及权利行使渠道，并完成必要的保护措施和授权程序。您可在启用相关服务前通过上述渠道了解具体安排。</p>
+    </section>
+
+    <section id="permissions">
+      <h2>4. 浏览器权限与您的选择</h2>
+      <ul>
+        <li><strong>本地存储：</strong>保存连接配置、登录会话、历史对话和界面偏好。</li>
+        <li><strong>标签页、导航和脚本能力：</strong>关联酒店业务页面，处理业务消息、报表预览及相关窗口。</li>
+        <li><strong>侧边栏：</strong>在当前业务页面旁提供 AI 助手界面。</li>
+        <li><strong>网站访问：</strong>由于酒店工作站可部署于不同域名或局域网地址，当前版本具有较广的网站访问范围；内容脚本通过业务地址和消息校验决定是否处理相关业务。</li>
+        <li><strong>设备定位：</strong>仅在启用设备定位模式并使用相关功能、且浏览器允许时获取当前位置。当前实现不使用持续位置监听。</li>
+      </ul>
+      <p>您可通过浏览器设置调整网站访问和定位权限，或停用、卸载扩展。拒绝必要的网站访问可能导致工作站连接、页面关联或报表功能不可用；拒绝定位会影响基于设备当前位置的查询，酒店地址模式不需要设备定位权限。</p>
+      <p>您可在扩展中停止使用当前位置；撤销浏览器位置授权可以阻止后续定位。此前已发送到服务端的数据需按照下文的删除渠道处理。</p>
+    </section>
+
+    <section id="retention">
+      <h2>5. 保存期限与删除</h2>
+      <h3>浏览器本地数据</h3>
+      <ul>
+        <li><strong>配置和登录信息：</strong>在本地保存以维持连接和会话，可通过清除扩展数据或卸载扩展移除；退出登录不等同于清除全部历史和配置。</li>
+        <li><strong>历史对话：</strong>当前版本最多保存最近 100 条会话记录，包括消息文本、相关业务结果、会话元信息和图片附件的名称、类型及大小等信息。历史会话保存逻辑不保存附件图片原始内容；发送请求时仍会向 AI 服务提交图片内容。您可在历史对话界面清除已保存的记录。</li>
+        <li><strong>运行时内容：</strong>当前对话中的图片、位置和报表等内容可能暂存于运行环境中；关闭相应页面或结束扩展进程会释放对应运行时数据。已经保存到历史记录或发送到业务服务的内容不会因此删除。</li>
+        <li><strong>诊断日志：</strong>可通过扩展日志界面清空其显示的日志；已另行导出或提供给支持人员的副本需要分别处理。</li>
+      </ul>
+      <h3>服务端数据</h3>
+      <p>工作站、AI、支付、签名和设备服务可能分别保存业务记录、请求日志或审计信息。其保留与删除独立于扩展本地存储。</p>
+      <p>我们以实现本政策所述目的所需的最短时间为原则确定保存期限，并结合以下标准处理：</p>
+      <ul>
+        <li><strong>AI 对话、图片与位置：</strong>以完成请求、维持必要会话和处理相关服务问题的需要为限；如作为历史记录保存，结合用户的保留选择、删除请求和所用服务的保存安排确定期限。</li>
+        <li><strong>酒店业务和交易记录：</strong>根据酒店业务履行、对账、审计、争议处理及适用的法定保存义务确定，不以卸载扩展作为删除条件。</li>
+        <li><strong>运行与安全日志：</strong>以故障排查、安全事件调查及相关法定保存义务所需时间为限。</li>
+        <li><strong>备份：</strong>依照所用服务的备份轮换安排淘汰；已提出删除的数据在备份中尚未到期清除时，限制其用于正常业务处理。</li>
+      </ul>
+      <p>超过必要保存期限后，按适用要求删除或匿名化；依法需继续保存或技术上暂时无法删除时，限制处理范围。酒店或其指定服务方独立管理的数据，适用相应服务的保存规则。您可通过酒店管理员或本政策联系邮箱查询具体期限并提出删除请求。</p>
+      <p class="note"><strong>清除本地历史或卸载扩展，不会自动删除已经发送到服务端的对话、图片或酒店业务记录。</strong>如需删除服务端数据，请联系酒店管理员或下方隐私联系邮箱。</p>
+    </section>
+
+    <section id="security">
+      <h2>6. 信息安全</h2>
+      <p>本扩展依赖酒店账号认证和服务权限控制业务访问。请使用组织授权的设备及服务地址，妥善保管账号，避免在共享浏览器环境中保留不必要的会话与历史信息。</p>
+      <p>扩展通过登录会话、业务权限及页面消息校验控制相关访问。网络传输的保护取决于实际连接协议和服务部署：HTTPS/WSS 提供传输加密，HTTP/WS 本身不提供该保护。连接配置兼容不同酒店部署环境，使用时应由管理员配置符合数据保护要求的服务地址，不应通过未受保护的公网连接传输敏感信息。</p>
+      <p>本地数据受浏览器及设备的存储和访问机制管理。服务器端保护由对应运营方或受托服务方按照其职责落实。我们根据实际处理风险采取相应保护措施，并在发现涉及本服务的信息安全事件时开展处置，按适用要求履行通知义务。</p>
+      <p>本隐私政策不替代功能使用时所需的权限请求、显著提示或用户同意。涉及设备定位及超出用户合理预期的数据处理时，应通过对应产品界面完成必要提示与选择。</p>
+    </section>
+
+    <section id="rights">
+      <h2>7. 您的请求与联系渠道</h2>
+      <p>您可联系酒店管理员或我们，提出与本扩展相关的信息查询、更正、删除、停止特定处理或其他适用请求。为保护账号及酒店业务数据，处理请求时可能需要核实您的身份和权限。</p>
+      <p>对于酒店或其服务商管理的业务记录，我们将根据实际职责协助您联系相应处理方。依法或履约需保留的记录，其保留依据、范围和期限应向您说明。</p>
+      <p>隐私联系邮箱：<a href="mailto:evan.wang@greencloud.com.cn">evan.wang@greencloud.com.cn</a><br>运营主体：杭州绿云软件股份有限公司</p>
+      <p>邮件中请说明请求类型、所使用的酒店或组织以及便于核查的问题描述。请勿直接发送密码、完整支付卡信息或无关宾客资料。我们将根据请求内容核实必要信息，在适用法律要求的期限内处理并反馈；如无法按请求办理，将说明理由及可采取的后续方式。</p>
+    </section>
+
+    <section id="children">
+      <h2>8. 适用人群</h2>
+      <p>本扩展面向具有酒店业务访问权限的工作人员，不以儿童为使用对象。酒店业务记录可能涉及未成年宾客，此类信息应由酒店及相关处理方在相应权限和适用要求下处理，不因本扩展面向工作人员而排除其保护需要。</p>
+    </section>
+
+    <section id="changes">
+      <h2>9. 政策更新</h2>
+      <p>当功能或数据处理方式发生变化时，我们将更新本政策并注明生效日期。涉及处理目的、信息类型或接收方等重要变化时，将通过适当渠道提示，并在需要时重新取得您的同意。</p>
+    </section>
+
+    <footer>
+      <p>杭州绿云软件股份有限公司 · oHotel Copilot</p>
+      <p>政策参考：<a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Chrome Web Store 用户数据说明</a> · <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Limited Use 要求</a></p>
+    </footer>
+  </main>
+</body>
+</html>
